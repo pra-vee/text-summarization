@@ -1,0 +1,39 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# pyenv
+.python-version
+
+# CSV
+*.csv
+
+# HTML
+*.html
+
+# R Programming
+*.R
+
+# PPT
+*.pptx
+
+# PDF
+*.PDF
+
+# DOC
+*.docx
+
+# Image
+*.jpg
+*.png
+
+# Text file
+*.txt
+
+# VS Code
+
+.vscode/*
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
