@@ -7,7 +7,9 @@ import string
 from collections import Counter
 
 import nltk
+
 nltk.download('stopwords')
+nltk.download('punkt')
 
 from nltk import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
