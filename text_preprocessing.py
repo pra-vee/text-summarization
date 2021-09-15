@@ -11,12 +11,10 @@ nltk.download('stopwords')
 
 from nltk import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
-from nltk.corpus import words
 from nltk.stem import WordNetLemmatizer
 
 
 stops = stopwords.words('english')
-corpus_words = words.words()
 wordnet_lemmatizer = WordNetLemmatizer()
 
 
