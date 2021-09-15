@@ -6,6 +6,9 @@ import string
 
 from collections import Counter
 
+import nltk
+nltk.download('stopwords')
+
 from nltk import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
 from nltk.corpus import words
