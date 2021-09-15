@@ -13,6 +13,7 @@ The text summarization is achieved using a combination of text lemmatization and
 Simply put, tf-idf helps understand how important a lemma(_think word_) is to a document(_think chapter_) in a collection or corpus(_think book_). It does this by weighing the frequently occuring words in a chapter more, while also offseting the value by the number of chapters in the book that contain the word.
 
 ## Methodology
+
 Each corpus retrieved from the URL goes through the following steps:
 - Get inputs 
 	- URL
@@ -23,4 +24,8 @@ Each corpus retrieved from the URL goes through the following steps:
 - Aggregate tf-idf score for each sentence get relative importance across the text(_corpus_)
 - Sort sentences by importance and take top _n_
 - Retrieve original sentence and concatenate to form summary
+
+## Link to App on Streamlit
+
+link: https://share.streamlit.io/pra-vee/text-summarization/text_summarization_app.py
 
